@@ -14,8 +14,6 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
 # variables
 PORT = int(env.get("PORT", 8080))
 BIND_ADDRESS = str(env.get("BIND_ADDRESS", "0.0.0.0"))
-NO_PORT = str(env.get("NO_PORT", "0").lower()) in ("1", "true", "t", "yes", "y")
-FQDN = str(env.get("FQDN", BIND_ADDRESS))
 API_ID = 29794396
 API_HASH = "c70b56706944684687bcdc069ae80e72"
 BOT_TOKEN = "7661367459:AAHqQqu_5HYUsgNkiEPZGc1ufax-IGwhxkk"
